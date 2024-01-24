@@ -1,0 +1,93 @@
+body{
+    background-size: cover;
+}
+.shade{
+    height:100vh;
+    background-color: rgba(0,0,0,0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    margin:-10px;
+}
+
+.header-title{
+    color:red;
+    font-weight: bold;
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.head{
+    padding:30px;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+}
+.spa span{
+    margin:3px;
+    font-size:14px;
+}
+.language{
+    border:1px solid white;
+    padding:5px;
+    border-radius: 5px;
+    background-color: black;
+}
+.sign{
+    background-color: rgb(255,0,0,1);
+    border-radius: 5px;
+    padding:8px; 
+    display:inline-block; 
+    width:60px;
+    text-align: center;
+}
+section{
+    color:white;
+    height:300px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+
+}
+.heading1{
+    font-weight: bold;
+    font-size:35px;
+}
+
+.para{
+    margin:30px 25px;
+    font-size: 20px;
+}
+.para + p{
+    margin:30px 25px;
+    font-size: 20px;
+}
+input[type="text"]{
+    padding:20px;
+    width:350px;
+    background-color: rgba(0,0,0,1);
+    outline:none;
+    border:2px solid white;
+    border-radius: 10px;
+    color:white;
+}
+
+::placeholder {
+    color: white;
+    font-size: 20px;
+  }
+
+  .button{
+    background-color: red;
+    padding:20px;
+    border-radius: 10px;
+    display:inline-block;
+    width:150px;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .button span{
+    margin-left:15px;
+  }
+  
